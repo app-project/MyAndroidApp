@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" 
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        >
+       
+ <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="80dp" 
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/imageDetailIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/icon_right" />
+
+        <ImageView
+            android:id="@+id/imageCartinfo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imageCartinfo"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/txtName"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txtCarInfoNum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+             android:layout_marginLeft="20dp"
+             android:layout_toRightOf="@+id/txtPrice"
+            android:textSize="16dp" />
+
+ </RelativeLayout>
+  </LinearLayout>

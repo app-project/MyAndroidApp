@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/nav_bg" >
+
+        <TextView
+            android:id="@+id/fragment3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="fragment3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/nav_title_fontsize" />
+    </RelativeLayout>
+
+  <!--   <ListView
+        android:id="@+id/listView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3" >
+    </ListView>
+    
+    
+    
+      android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:dividerHeight="4dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" 
+     -->
+
+     <com.handmark.pulltorefresh.library.PullToRefreshListView
+         xmlns:ptr="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/listView3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/relativeLayout3"
+         ptr:ptrHeaderBackground="#383838"
+         ptr:ptrHeaderTextColor="#FFFFFF" />
+
+</RelativeLayout>

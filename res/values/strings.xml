@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="loading">loading</string>
+	<string name="loading_text">正在加载数据，请稍候...</string>
+
+	<!-- login ************begin**************** -->
+    <string name="login">登录</string>
+    <string name="login_username">用户名：</string>
+    <string name="login_password">密  码：</string>
+    <string name="login_qrpassword">确认密码：</string>
+	<!-- login ********end********************** -->
+	
+	<!-- 个人信息 ************begin**************** -->
+    <string name="usercenter">个人中心</string>
+    <string name="userinfo">个人信息</string>
+    <string name="userdd">我的订单</string>
+    <string name="usersc">我的收藏</string>
+	<!-- 个人信息 ********end********************** -->
+    
+    
+    <!-- 详细信息 ************begin**************** -->
+    <string name="xinxi">详细信息</string>
+    <string name="name">用户名：</string>
+    <string name="sex">性  别：</string>
+    <string name="man">男：</string>
+    <string name="woman">女：</string>
+    <string name="age">年  龄：</string>
+    <string name="birthday">出生日期：</string>
+    <string name="chose">选择日期：</string>
+    <string name="phone">电话号码：</string>
+    <string name="email">邮  箱：</string>
+    <string name="address">住  址：</string>
+    <string name="pic">头  像：</string>
+    <!-- 详细信息 ************end**************** -->
+    
+    
+    <!-- 详细信息 ************begin**************** -->
+    <string name="peopleinfo">我的信息</string>
+    <string name="info_LoginName">用户名：</string>
+    <string name="info_Name">昵称：</string>
+    
+    <string name="info_sex">性  别：</string>
+    <string name="info_man">男：</string>
+    <string name="info_woman">女：</string>
+    <string name="info_age">年  龄：</string>
+    <string name="info_phone">电话号码：</string>
+    <string name="info_email">邮  箱：</string>
+    <string name="info_address">地  址：</string>
+    <string name="info_pic">头  像：</string>
+    
+    <!-- 详细信息 ************end**************** -->
+    
+    
+    <!-- register ************begin**************** -->
+    <string name="register">注册</string>
+    <string name="baocun">保存</string>
+    <!-- register ************end**************** -->
+    
+    <!-- 主页下面按钮名称 ************begin**************** -->
+    <string name="shouye">首页</string>
+    <string name="serch">发现</string>
+    <string name="shoping">购物车</string>
+    <string name="grzx">个人中心</string>
+    
+    <!-- 主页下面按钮名称 ************end**************** -->
+    
+
+    <string name="Fragment">Fragment</string>
+     <!-- URI ************begin**************** -->
+	<string name="servlet_uri">http://10.168.171.171:8080/AndroidLogin</string>
+	<string name="struts_uri">http://10.168.171.171:8080/androidserver</string>
+     <!-- URI ************begin**************** -->
+     
+     
+	<string name="no_network">请检查网络!</string>
+     
+
+</resources>
